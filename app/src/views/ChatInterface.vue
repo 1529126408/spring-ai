@@ -264,7 +264,6 @@ const sendMessage = async () => {
                 
                 // 将新文本添加到现有内容
                 assistantMessage.content += newText
-                await nextTick()
                 // 每次更新后滚动到底部
                 scrollToBottom()
               }
@@ -272,7 +271,7 @@ const sendMessage = async () => {
               console.error('解析SSE数据失败', error, line)
             }
         }
-      
+        scrollToBottom()
         console.log(assistantMessage.content)
       }
 

@@ -3,7 +3,7 @@ spring:
   ai:
     openai:
       base-url: https://hk.xty.app
-      api-key: sk-y8a9h1lSDrEzW9OnIM5vI3QOFyTJbG7Y6YBjP4rzI2KJzrgh
+      api-key: sk-RQPHMpcrdYEC0RlhEwVZshWz1F75onpc1FUlZHgsVBX6dXEt
       chat:
         options:
           model: gpt-3.5-turbo
