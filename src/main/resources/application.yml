@@ -1,0 +1,20 @@
+#openAI 的请求中转
+spring:
+  ai:
+    openai:
+      base-url: https://hk.xty.app
+      api-key: sk-y8a9h1lSDrEzW9OnIM5vI3QOFyTJbG7Y6YBjP4rzI2KJzrgh
+      chat:
+        options:
+          model: gpt-3.5-turbo
+#通义千问 模型设置
+#      base-url: https://dashscope.aliyuncs.com/compatible-mode
+#      api-key: sk-5687150d9255482a96b54be314f06378
+#      chat:
+#        options:
+#          model: qwen-plus
+#ollama 本地模型调用
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: deepseek-r1:8b-llama-distill-q8_0
